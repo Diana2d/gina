@@ -1,18 +1,17 @@
-.cabecalho {
-    background-color: #424E61;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+:root {
+    --cor-de-fundo: rgb(141, 131, 228);
 }
 
-.cabecalho-imagem{
-    width: 20%;
+body {
+   background-color: var(--cor-de-fundo);
 }
 
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+h1 {
+  background-color: var(--cor-de-fundo);
+  font-style: italic;
+  color: white;
+}
+
+ul {
+  color: white;
 }
