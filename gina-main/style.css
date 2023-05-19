@@ -2,8 +2,17 @@
     --cor-de-fundo: rgb(141, 131, 228);
 }
 
+body {
+  background-color: rgb(212, 204, 235);
+  text-align: center;
+}
+
 .cabecalho-menu {
   background-color: var(--cor-de-fundo);
+}
+
+.cabecalho-titulo {
+  font-size: 60px;
 }
 
 .cabecalho-menu-ite {
